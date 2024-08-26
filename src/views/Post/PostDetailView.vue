@@ -105,9 +105,9 @@ export default {
         : []
     },
     PostStyle() {
-      const baseMargin = 150
+      const baseMargin = 200
       const contentLength = this.post.content.length
-      const dynamicMargin = baseMargin + contentLength / 9
+      const dynamicMargin = baseMargin + contentLength / 5
       return { marginTop: `${dynamicMargin}px` }
     }
   },
