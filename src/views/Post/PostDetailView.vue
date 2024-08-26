@@ -246,13 +246,6 @@ export default {
   border: 1px solid #ccc;
   border-radius: 10px;
 }
-.textarea {
-  width: 100%;
-  padding: 0.75rem;
-  border: 2px solid #ccc;
-  border-radius: 25px;
-  box-sizing: border-box;
-}
 .send-button {
   margin-left: 10px;
 }

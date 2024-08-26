@@ -160,6 +160,13 @@ export default {
 
 .created-at {
   margin-left: 450px;
+  margin-top: -20px;
+}
+.created-by {
+  margin-top: -20px;
+}
+.created-at,
+.created-by {
   font-size: 0.9rem;
   color: #777;
 }
@@ -167,10 +174,5 @@ export default {
 .post-list {
   flex-grow: 0;
   /* overflow: hidden; */
-}
-
-.created-by {
-  font-size: 0.9rem;
-  color: #777;
 }
 </style>
