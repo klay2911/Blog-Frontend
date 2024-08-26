@@ -34,7 +34,7 @@ import Button from 'primevue/button'
         :rows="postsPerPage"
         :totalRecords="totalCount"
         :pageLinkSize="3"
-        :rowsPerPageOptions="[5, 10, 15]"
+        :rowsPerPageOptions="[10, 20, 30]"
         @page="onPageChange"
       />
     </div>
@@ -159,7 +159,7 @@ export default {
 }
 
 .created-at {
-  margin-left: 500px;
+  margin-left: 450px;
   font-size: 0.9rem;
   color: #777;
 }
